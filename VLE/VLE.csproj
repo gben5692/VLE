@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="docs\" />
+    <Folder Include="VLE.Core\Handler\" />
+    <Folder Include="VLE.Nodes\General\" />
+    <Folder Include="VLE.Nodes\Math\" />
+    <Folder Include="VLE.Runtime\Engine\" />
+    <Folder Include="VLE.Runtime\Interpreter\" />
+    <Folder Include="VLE.Runtime\Graph\" />
+  </ItemGroup>
+
+</Project>
