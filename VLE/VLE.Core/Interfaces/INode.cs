@@ -1,15 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
+using VLE.VLE.Core.enums;
 
 namespace VLE.VLE.Core.Interfaces
 {
     public interface INode
     {
+        public string Name { get; } // the name of the node
 
+        public string Description { get; } // the description of the Node
 
+        public DataType DataType { get; } // data type of the node Int float etc
 
+        public Types Type { get; } // if it is math or whatever
+
+        public List<IPin> Inputs { get; }
+
+        public List<IPin> Outputs { get; }
     }
 }
