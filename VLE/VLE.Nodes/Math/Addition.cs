@@ -8,7 +8,7 @@ namespace VLE.VLE.Nodes.Math
     {
         public string Name => "Addition";
 
-        public string Description => "Adding to values togheter and returns the result a + b = c";
+        public string Description => "Adding values togheter and returns the result";
 
         public DataType DataType => DataType.Currency;
 
