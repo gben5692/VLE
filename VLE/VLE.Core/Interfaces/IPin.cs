@@ -14,5 +14,7 @@ namespace VLE.VLE.Core.Interfaces
         public INode NodeParent { get; } // the parent of the pin which is a node
 
         public bool IsInput { get; } // if it is an input or output
+
+        public object Value { get; set;  } // store and change
     }
 }

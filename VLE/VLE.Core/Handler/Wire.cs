@@ -20,7 +20,7 @@ namespace VLE.VLE.Core.Handler
             }
             else
             {
-                if (endPoints.All(endPoint => endPoint.DataType != startPoint.DataType)) // check if the startpoint and endpoint is not the same type 
+                if (endPoints.Any(endPoint => endPoint.DataType != startPoint.DataType)) // check if the startpoint and endpoint is not the same type 
                 {
                     throw new InvalidOperationException("Startpoint and Endpoint is not the same type");
                 }

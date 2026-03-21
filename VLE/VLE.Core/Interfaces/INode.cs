@@ -13,8 +13,10 @@ namespace VLE.VLE.Core.Interfaces
 
         public Types Type { get; } // if it is math or whatever
 
-        public List<IPin> Inputs { get; }
+        public List<IPin> Inputs { get; } // list of inputs
+         
+        public List<IPin> Outputs { get; } // list of outputs
 
-        public List<IPin> Outputs { get; }
+        public void Execute(); // this will be called when the node is getting executed
     }
 }
