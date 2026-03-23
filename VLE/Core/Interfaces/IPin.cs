@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
 
-namespace VLE.VLE.Core.Interfaces
+namespace VLE.Core.Interfaces
 {
     public interface IPin
     {

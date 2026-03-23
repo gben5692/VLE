@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using VLE.VLE.Core.enums;
+using VLE.Core.enums;
 
-namespace VLE.VLE.Core.Interfaces
+namespace VLE.Core.Interfaces
 {
     public interface INode
     {

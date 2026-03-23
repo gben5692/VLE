@@ -1,6 +1,6 @@
-﻿using VLE.VLE.Core.Interfaces;
+﻿using VLE.Core.Interfaces;
 
-namespace VLE.VLE.Core.Handler
+namespace VLE.Core.Handler
 {
     public class Wire
     {

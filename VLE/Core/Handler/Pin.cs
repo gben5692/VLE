@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using VLE.VLE.Core.Interfaces;
+using VLE.Core.Interfaces;
 
-namespace VLE.VLE.Core.Handler
+namespace VLE.Core.Handler
 {
     // this class handles the individual pins
     public class Pin(string name, string description, DataType dataType, INode nodeParent, bool isInput) : IPin

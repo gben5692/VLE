@@ -8,10 +8,10 @@
 
   <ItemGroup>
     <Folder Include="docs\" />
-    <Folder Include="VLE.Nodes\General\" />
-    <Folder Include="VLE.Runtime\Engine\" />
-    <Folder Include="VLE.Runtime\Graph\" />
-    <Folder Include="VLE.Runtime\Interpreter\" />
+    <Folder Include="Nodes\General\" />
+    <Folder Include="Runtime\Engine\" />
+    <Folder Include="Runtime\Graph\" />
+    <Folder Include="Runtime\Interpreter\" />
   </ItemGroup>
 
 </Project>

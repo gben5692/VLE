@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VLE.VLE.Core.enums
+namespace VLE.Core.enums
 {
     public enum Types // To categorize the nodes
     {
